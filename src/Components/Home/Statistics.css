@@ -1,0 +1,15 @@
+.Flex__Statistics {
+  width: 100%;
+  margin-top: 20px;
+}
+.Flex__Statistics h3 {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.Flex__Cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}

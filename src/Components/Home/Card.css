@@ -1,0 +1,17 @@
+.Flex__Card {
+  padding: 10px;
+  background: #fff;
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+.Flex__Card h4 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #002147;
+}
+.Flex__Card p {
+  text-align: left;
+  font-size: 12px;
+}

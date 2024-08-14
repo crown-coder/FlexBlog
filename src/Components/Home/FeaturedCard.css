@@ -1,0 +1,56 @@
+:root {
+  --orange-tranparent: #ff6e61b9;
+  --blue-transparent: #bedcffbb;
+}
+.Flex__FeaturedCard {
+  width: 60%;
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+.Flex__FeaturedCard img {
+  width: 100%;
+}
+.Flex__BlogContent {
+  width: 50%;
+  height: 100%;
+  background: var(--orange-tranparent);
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+.Flex__BlogContent h4 {
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: left;
+}
+.Flex__BlogContent p {
+  color: black;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+button {
+  background: #ff6f61;
+  font-family: "Pacifico", cursive;
+  padding: 2px 8px;
+  color: white;
+}
+.Flex__FeaturedCard.Even .Flex__BlogContent {
+  background: var(--blue-transparent);
+  left: 0;
+}
+.Flex__FeaturedCard.Even .Flex__BlogContent button {
+  background-color: #002247;
+}
+/* Responsive Design */
+@media (max-width: 800px) {
+  .Flex__FeaturedCard {
+    width: 100%;
+  }
+  .Flex__BlogContent {
+    width: 100%;
+  }
+}

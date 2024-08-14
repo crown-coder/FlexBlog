@@ -1,0 +1,18 @@
+.Flex__HeroRight {
+  width: 38%;
+  display: flex;
+  margin-top: 60px;
+}
+.image__container {
+  flex: 1;
+}
+.image__container img {
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+  .Flex__HeroRight {
+    display: none;
+  }
+}
